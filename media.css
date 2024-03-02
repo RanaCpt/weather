@@ -1,0 +1,68 @@
+@media only screen and (max-width:600px) {
+    .weather-container{
+        padding: 20px;
+        width: 450px;
+    }
+    .weather-container input{
+        height: 50px;
+    }
+    .weather-form{
+        align-items: center;
+    }
+    .weather-form button{
+        font-size: 1.5rem;
+        padding: 13px;
+    }
+    .city-display{
+        font-size: 3rem;
+    }
+    p{
+        font-size: 2rem;
+    }
+    .error-display{
+        font-size: 2rem;
+    }
+    .weather-emoji{
+        font-size: 7rem;
+    }
+}
+@media only screen and (max-width:400px) {
+    .title{
+        font-size: 2.5rem;
+    }
+    .weather-container{
+        padding: 10px;
+        width: 350px;
+    }
+    .weather-container input{
+        height: 40px;
+        font-size: 1.5rem;
+        box-shadow: none;
+        border-radius: 10px;
+        position: relative;
+        border-radius: 20px;
+        padding: 0 15px;
+    }
+    .weather-form{
+        align-items: center;
+    }
+    .weather-form button{
+        font-size: 1rem;
+        padding: 13px;
+        position: absolute;
+        right: 30px;
+        border: none;
+    }
+    .city-display{
+        font-size: 2.5rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    .error-display{
+        font-size: 1.5rem;
+    }
+    .weather-emoji{
+        font-size: 5rem;
+    }
+}
